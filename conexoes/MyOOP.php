@@ -18,6 +18,7 @@ $fnaf = new FNaF();
 $fnaf->nome = 'Five Nights At Freddys 1';
 $fnaf->data = 8 . 8 . 2014 ; 
 $fnaf->freddyf = 'Freddy Fazbear';
+$fnaf->foto = ;
 
 ?>
 <div class="apresentar">
