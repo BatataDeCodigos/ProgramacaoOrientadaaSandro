@@ -1,4 +1,4 @@
-# ProgramacaoOrientadaaSandro
+# Sistema de doação de animais
 Atividade sem banco de dados, conectores ou herança.
   - Utilizei apenas algumas funções do HTML, que não pode, mas foi para organizar.
   - Utilizei do CSS para deixar estética a parte do sisteminha.
