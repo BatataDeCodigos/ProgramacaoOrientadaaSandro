@@ -1,3 +1,8 @@
 # ProgramacaoOrientadaaSandro
 Atividade sem banco de dados, conectores ou herança.
-  - Utilizei apenas algumas funções do HTML, que não pode, mas para organizar.
+  - Utilizei apenas algumas funções do HTML, que não pode, mas foi para organizar.
+  - Utilizei do CSS para deixar estética a parte do sisteminha.
+
+Fiz com conteúdos vistos em sala e aprendi algumas outras partes novas, como os métodos diferentes e as funções em formato "apresentar" para trazer aquilo escrito na outra página.
+  - Os nomes dos animais são propriedademinha, pois são da minha família.
+  - Você pode usar meus códigos como base.
