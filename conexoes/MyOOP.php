@@ -32,11 +32,13 @@ echo $gato->apresentar();
 ?>
 </p>
 <p style="margin-left: 50px;">
-<img src="../imgs/" style="height: 200px; width: 300px;" alt="Foto:">
 <?php
 $cachorro = new Cachorro();
 print_r('Cachorros:<br>');
-
+$imgcachorro = "../imgs/dogAlemao1.jpg"
+?>
+<img src="../imgs/dogAlemao1.jpg" style="height: 200px; width: 290px;" alt="Foto:">
+<?php
 $cachorro->nome = '';
 $cachorro->datanasc = '05\12\1996';
 $cachorro->peso = '19kg';
