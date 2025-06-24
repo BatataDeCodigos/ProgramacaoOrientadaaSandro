@@ -2,7 +2,6 @@
 
 class Animal{
 
-
 public $nome;
 public $especie;
 public $idade;
