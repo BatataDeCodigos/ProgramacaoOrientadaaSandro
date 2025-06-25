@@ -1,5 +1,5 @@
 <?php
-include_once '../classes/animal';
+include_once '../classes/animal.php';
 
 class Cachorro extends Animal{
 
@@ -14,7 +14,7 @@ public $adestrado;
 
         public function apresentarCachorro(){
 
-                return "Nome: {$this->nome} Raça: {$this->raça} Porte: {$this->porte} Nível de energia: {$this->nivelenergia} Vacinado: {$this->vacinado} Sociável: {$this->sociavel} Adestrado:{$this->adestrado} ";
+                return "Nome: {$this->nome} Raça: {$this->raça} Porte: {$this->porte} Nível de energia: {$this->nivelenergia} Vacinado: {$this->vacinado} Sociável: {$this->sociavel} Adestrado:{$this->adestrado} <br><br>";
 
         }
 
@@ -42,16 +42,14 @@ public $adestrado;
 
         }
 
-        public function atualizarEnergia($nivelenergia){
+        public function atualizarEnergia(){
 
-            $this->nivelenergia = $nivelenergia;
             return "Atualizando a energia: {$this->nivelenergia} <br><Br>";
 
         }
 
         public function indicarPorte(){
 
-            $this->porte = $porte;
             return "Porte do animal: {$this->porte} <br><Br>";            
 
         }
@@ -68,10 +66,21 @@ public $adestrado;
 
         }
 
-        public function (){
+        public function exibAdestramento(){
 
+            if ($this->adestrado = TRUE){
+                return "Sim, ele recebeu adestramento.";
+            }
+            if ($this->adestrado = FALSE){
+                return "Não, ele não recebeu adestramento.";
+            }
             
-            
+        }
+
+        public function exibResumo(){
+
+            return "Porte: {$this->porte}, Nome: {$this->nome}, Raça: {$this->raça}";
+
         }
 
 

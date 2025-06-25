@@ -26,6 +26,15 @@ $cachorro->sociavel = TRUE;
 $cachorro->adestrado = FALSE;
 $cachorro->vacinado = TRUE;
 
+//echo dos métodos do cachorro 
+echo $cachorro->apresentarCachorro();
+echo $cachorro->vacinar();
+echo $cachorro->verifyAdest();
+echo $cachorro->atualizarEnergia();
+echo $cachorro->indicarPorte();
+echo $cachorro->verifySocial();
+echo $cachorro->exibAdestramento();
+echo $cachorro->exibResumo();
 
 //classe do gato
 $gato = new Gato();
@@ -41,12 +50,12 @@ $gato->status = 'Vacinada e sociável';
 $gato->chipado = FALSE;
 
 //atributos do gato
-$gato->raça = 'Scottish Fold';
-$gato->porte = 'Baixo';
-$gato->nivelenergia = 'Baixo';
-$gato->vermifugado = TRUE;
-$gato->sociavel = FALSE;
-$gato->adestrado = FALSE;
+$gato->pelagem = 'Laranja e branco';
+$gato->castrado = FALSE;
+$gato->independente = 8;
+$gato->curioso = TRUE;
+$gato->adoraColo = TRUE;
+$gato->caixaAreia = FALSE;
 $gato->vacinado = TRUE;
 
 

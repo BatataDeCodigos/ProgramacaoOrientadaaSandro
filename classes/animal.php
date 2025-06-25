@@ -5,6 +5,7 @@ class Animal{
 public $nome;
 public $especie;
 public $idade;
+public $peso;
 public $sexo;
 public $cor;
 public $status;
@@ -57,15 +58,18 @@ public $chipado;
 
         public function resumoAnimal(){
 
-
+                return "Nome: {$this->nome}, Espécie: {$this->especie}, Status atual: {$this->status}";
 
         }
 
         public function verifySexo(){
 
-
+                $this->sexo = $sexo;
+                        return "Verificação do gênero: {$this->sexo} <br><br>";
+                
 
         }
+
 
 }
 
