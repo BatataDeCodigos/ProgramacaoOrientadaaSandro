@@ -14,18 +14,18 @@ public $adestrado;
 
         public function apresentarCachorro(){
 
-                return "Nome: {$this->nome} Raça: {$this->raça} Porte: {$this->porte} Nível de energia: {$this->nivelenergia} Vacinado: {$this->vacinado} Sociável: {$this->sociavel} Adestrado:{$this->adestrado} <br><br>";
+                return "Nome: {$this->nome}, Raça: {$this->raça}, Porte: {$this->porte} <br>";
 
         }
 
         public function vacinar(){
 
             if ($this->vacinado = TRUE){
-                return "Verificando se está vacinado: o animal está vacinado! <br><Br>";
+                return "Verificando se está vacinado: o animal está vacinado! <br>";
             } 
 
             if ($this->vacinado = FALSE){
-                return "Verificando se está vacinado: o animal não está vacinado! <br><Br>";
+                return "Verificando se está vacinado: o animal não está vacinado! <br>";
             }
 
         }
@@ -33,35 +33,35 @@ public $adestrado;
         public function verifyAdest(){
 
             if ($this->adestrado = TRUE){
-                return "Verificando se é adestrado(a): Sim! <br><Br>";
+                return "Verificando se é adestrado(a): Sim! <br>";
             }
             
             if ($this->adestrado = FALSE){
-                return "Verificando se é adestrado(a): Não! <br><Br>";
+                return "Verificando se é adestrado(a): Não! <br>";
             }
 
         }
 
         public function atualizarEnergia(){
 
-            return "Atualizando a energia: {$this->nivelenergia} <br><Br>";
+            return "Atualizando a energia: {$this->nivelenergia} <br>";
 
         }
 
         public function indicarPorte(){
 
-            return "Porte do animal: {$this->porte} <br><Br>";            
+            return "Porte do animal: {$this->porte} <br>";            
 
         }
 
         public function verifySocial(){
 
             if ($this->sociavel = TRUE){
-                return "Verificando se o animal é sociável: Sim! <br><br>";
+                return "Verificando se o animal é sociável: Sim! <br>";
             }
 
             if ($this->sociavel = FALSE){
-                return "Verificando se o animal é soviável: Não! <br><br>";
+                return "Verificando se o animal é soviável: Não! <br>";
             }
 
         }
@@ -69,10 +69,10 @@ public $adestrado;
         public function exibAdestramento(){
 
             if ($this->adestrado = TRUE){
-                return "Sim, ele recebeu adestramento.";
+                return "Sim, ele recebeu adestramento.<br>";
             }
             if ($this->adestrado = FALSE){
-                return "Não, ele não recebeu adestramento.";
+                return "Não, ele não recebeu adestramento.<br>";
             }
             
         }
